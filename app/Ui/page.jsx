@@ -12,7 +12,7 @@ const page = () => {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 h-screen gap-20 p-10 ">
-        <div className="bg-zinc-900  rounded-md">
+        <div className="bg-zinc-900  rounded-xl">
           <div className="flex h-full">
             <div className="w-full flex-col flex items-center justify-center space-y-5 ">
               <h1 className="text-2xl text-white font-semibold">Full Toggle</h1>
@@ -28,16 +28,17 @@ const page = () => {
           </div>
         </div>
 
-        <div className="bg-zinc-900 rounded-md text-center  text-xl p-5 flex items-center justify-center">
+        <div className="bg-zinc-900 rounded-xl text-center  text-xl p-5 flex items-center justify-center">
           <div className="w-full flex flex-col  items-center justify-center space-y-3 text-white">
          <h1 className="font-semibold text-2xl mb-2">Search for any Country name or its States</h1>
          <Search />
           </div>
         </div>
-        <div className="bg-zinc-900 text-white text-center rounded-md  ">
+        <div className="bg-zinc-900 text-white 
+         text-center rounded-xl  ">
           <Alert />
         </div>
-        <div className="bg-zinc-900 flex justify-center items-center rounded-md p-5 "><Expandable /></div>
+        <div className="bg-zinc-900 flex justify-center items-center rounded-xl p-5 "><Expandable /></div>
       </div>
     </>
   );
